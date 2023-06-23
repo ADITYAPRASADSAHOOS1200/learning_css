@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(170, 170, 216);
+}
+ .par3{
+    color: brown;
+    font-size:large;
+    font-weight: 500;
+ }
+.par2{
+    color:aquamarine;
+    border:2px solid red;
+}

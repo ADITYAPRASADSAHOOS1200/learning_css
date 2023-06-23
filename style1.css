@@ -1,0 +1,24 @@
+/* universal selector */
+*{
+    background-color: #cddcdc;
+    margin:1px;
+    padding: 1px;
+}
+/* elementselector */
+h1{
+    color:rgb(198, 3, 3)
+}
+/* class slector */
+.para1{
+   color:blue;
+   font-size: larger;
+   border:2px solid black;
+
+}
+/* id selector it should be unique */
+#par2{
+    color:rgb(66, 102, 12);
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}

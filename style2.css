@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #efefef;
+}
+/* descendent selector */
+main p{
+     color:rgb(16, 16, 175);
+
+}
+/* child selector */
+h1>p{
+    color:greenyellow;
+}
+/* adjacent sibling */
+section + p{
+    color:red;
+}
