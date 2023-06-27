@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSEUDO|ELEMENTS</title>
+    <style>
+        /* it will change the color of the first line */
+      p::first-line{
+        color:blue;
+      }
+       p::after{
+          content:"-Aditya";
+          color:#ff9100;
+       }
+       p::before{
+          content:"-Aditya";
+          color:rgb(211, 137, 59);
+       }
+       p::selection{
+          background-color: #151313;
+          color:yellow;
+       }
+       /* it is activate in the list */
+       li::marker{
+           color:red;
+       }
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vitae soluta ullam dolorum doloribus, cum quos fugiat, inventore molestiae, error labore odio quae ex repellendus aut quam voluptates ipsa tenetur esse adipisci libero. A omnis temporibus quasi tenetur harum repellendus, vitae iure eos necessitatibus quibusdam sed? Dolore eaque illum doloremque?</p>
+  <div>
+      <ol type="">
+        <li>aditya</li>
+        <li>prasad</li>
+        <li>sahoo</li>
+      </ol>
+
+  </div>
+
+
+</body>
+</html>

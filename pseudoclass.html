@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudoclass</title>
+  <style>
+    /* hover */
+.hover:hover{  
+       background-color: rgb(255, 26, 26);
+       color:white;
+    
+    }
+    /* it is used in forms */
+    input:focus{
+        background-color: greenyellow;
+        color:red;
+        font-size:30px;
+    }
+   
+    a:hover{
+        color:#f10d33;
+       
+    }
+    a:active{
+        color:#adff2f;
+    }
+    a:visited{
+        color:black;
+    }
+   /* a:first-child{
+    background-color:yellow;
+   } */
+   a:nth-child(even){
+      color:#f10d33;
+   }
+  </style>
+</head>
+<body>
+ <!-- pseudoclass -->
+ <p class="hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, explicabo!
+ </p>
+ <!-- input:focus -->
+ <input type="text" >
+<hr>
+<nav>
+ <a href="https://www.google.com/">GOOGLE</a>
+ <a href="https://www.google.com/">GOOGLE</a>
+ <a href="https://www.google.com/">GOOGLE</a>
+ <a href="https://www.google.com/">GOOGLE</a>
+ <a href="https://www.google.com/">GOOGLE</a>
+</nav>
+</body>
+</html>
