@@ -16,3 +16,7 @@ h1>p{
 section + p{
     color:red;
 }
+/*general sibling selector*/
+/* section ~ p{
+    color:rgb(246, 255, 0);
+} */
